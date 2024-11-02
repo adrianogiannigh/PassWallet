@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersControl.WebApi", "UsersControl.WebApi", "{2BF11671-E816-49C2-97C4-CD24B40AC810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "UsersControl.WebApi\API\API.csproj", "{CABF698D-CC0A-4D4F-B29F-0342CE156E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABF698D-CC0A-4D4F-B29F-0342CE156E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABF698D-CC0A-4D4F-B29F-0342CE156E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABF698D-CC0A-4D4F-B29F-0342CE156E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABF698D-CC0A-4D4F-B29F-0342CE156E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CABF698D-CC0A-4D4F-B29F-0342CE156E18} = {2BF11671-E816-49C2-97C4-CD24B40AC810}
+	EndGlobalSection
+EndGlobal
